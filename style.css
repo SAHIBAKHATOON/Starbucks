@@ -1,0 +1,1875 @@
+ *{
+    margin:0;
+    padding: 0;
+ }
+ .image img{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .nav-cont{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    top: 0;
+ }
+.navbar{
+    margin-left: 140px;
+    display: flex;
+   max-width: 300px;
+   justify-content: space-between;
+   margin-top: -50px;
+   font-size: 16px;
+   font-family: sans-serif;
+   cursor: pointer;
+  }
+  .hero{
+    max-width: 1500px;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    height: 700px;
+    background-image: url("./Asset\ images/hero.webp");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #d4e9e2; 
+  }
+  .hero-left{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   margin-left: 60px;
+  }
+  .hero-right{
+    width: 100%;
+  }
+  .star-img{
+    max-width: 700px;
+    height: 700px;
+  }
+  .hero-left h1{
+    font-size: 34px;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .hero-left p{
+    font-size: 19px;
+  }
+  .hero-left a{
+    color: #00754a;
+  }
+  .navbar h4:hover{
+    color: #00754a;
+  }
+  .ward{
+    border-bottom: 6px solid #00754a;
+    margin-bottom: -40px;
+  }
+  .location img{
+    height: 30px;
+    width: 30px;
+    margin-left: -100px;
+    margin-right: 14px;
+    margin-top: 5px;
+  }
+  .location{
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+    position: relative;
+    left: 74%;
+    margin-top: -30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    
+  }
+  .location i{
+    margin-left: -50px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .btn1{
+    height: 35px;
+    width: 90px;
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #000;
+    background-color: #fff;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+   }
+  .btn2{
+    height: 35px;
+    width: 100px;
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #000; 
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}  
+ .p{
+    margin-top: 10px;
+ }
+ .second{
+    height: 50px;
+     background-color: #1e3932;
+  color: #fff;
+ }
+ .second h3{
+    padding-top: 16px;
+    margin-left: 140px;
+ }
+.fourth{
+    margin-left: 100px;
+    color: #fff;
+    margin-top: 15px;
+}
+.btn3 {
+    font-size: 12px;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #1e3932;
+    float: right;
+    text-align: center;
+    margin-top: -19px;
+    display: none;
+    margin-right: 10px;
+}
+ .sixth{
+    height: 750px;
+    width: 100%;
+    background-color: #d4e9e2;
+    margin-bottom: 280px;
+ }
+ /* .sixth img{
+    height: 750px;
+    max-width: 1520px;
+    margin-left: -25px;
+ }
+ .sixty{
+    margin-top: -720px;
+    margin-left:60px;
+ }
+ .sixty h1{
+    margin-bottom: 20px;
+ } */
+ .join{
+    border-radius: 25px;
+    background-color: #00754a;
+    width: 100px;
+    height:35px;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 19px;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .hero a{
+    text-decoration: underline;
+    color: #000;
+ }
+ .hero a:hover{
+text-decoration: none;
+color: black;
+ }
+.seventh{
+    margin-top: 130px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.seventh p{
+    margin-top: 30px;
+}
+.eighth{
+    margin-bottom: 50px;
+}
+.greedy{
+    color: green;
+}
+.get{
+    max-width: 300px;
+    text-align: center;
+    line-height: 22px;
+}
+.one{ 
+    max-width: 1300px;
+    text-align: left;
+   padding: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 150px;
+   margin-left: 40px;
+   margin-top: -40px;
+ } 
+ .one p{
+    font-family: sans-serif;
+    font-size: 15px;
+ } 
+.nineth{
+     margin-left: 60px; 
+}
+.nineth h2{
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.nineth img{
+    height: 50px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+.create{
+    display: block;
+}
+.down{
+    display: none;
+}
+.tenth{
+    margin-left: 20px;
+}
+.tenth h2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.tenth p{
+    max-width: 320px;
+    text-align: center;
+    line-height: 22px;
+}
+.tenth img{
+    height: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.eleventh{
+    margin-top: -20px;
+     margin-right: 80px;
+}
+.eleventh p{
+    max-width: 305px;
+    text-align: center;
+    line-height: 22px;
+}
+.eleventh h2{
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.eleventh img{
+    height: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.green{
+    color: green;
+} 
+ .twelveth{
+    background-color: #f1f8f6;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+     flex-direction: column;
+     height: 190px;
+ }
+ .twelveth h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 25px;
+ }
+.twenty{
+    max-width: 1500px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 65px 0px;
+}
+.twenty h2{
+    margin: 13px 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.tress{
+    border-bottom: 5px solid #008348;
+    width: 90px;
+}
+.star{
+    height: 50%;
+    width: 20px;
+}
+ .thirteen{
+    background-color: #d4e9e2;
+     max-width: 1500px;
+     margin-right: auto;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     height: 260px;
+     font-family: sans-serif;
+} 
+ .three{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.three img{
+    margin-left: 30px;
+    max-width:  400px;
+    height: 220px;
+}
+.thirty{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+ margin-top: 80px;
+ margin-left: -170px;
+} 
+.thirty h1{
+    font-size: 24px;
+}
+.thirty p{
+max-width: 330px;
+  line-height: 22px;
+  font-size: 16px;
+}
+.fourteen{
+    max-width: 1500px;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+.fourteen h1{
+     text-align: center; 
+     font-size: 24px;
+}
+.four{
+    margin-left: -100px;
+    font-family: sans-serif;
+        max-width: 1500px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 300px;
+}
+ .four h2{
+    font-size: 20px;
+ }
+.fourteen p{
+   max-width: 560px;
+    line-height: 22px;
+    font-size: 15px;
+     margin-left: 350px;
+}
+.forty p{
+    width: 305px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.forty{
+    margin-left: 180px;
+}
+.forty img{
+    height: 120px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+}
+.forty h2{
+    margin-left: 120px;
+}
+.for{
+    margin-left: -50px;
+}
+.for p{
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.for img{
+    height: 120px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.from{
+    margin-right: 150px;
+}
+.from img{
+    margin-left: 20px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.from p{
+    width: 300px;
+    text-align: center;
+    margin-left: -60px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.green{
+    width: 100%;
+    color:  #00754a;
+     margin-left: 60px; 
+     font-size: 17px;
+}
+.greece{
+    color: #00754a;
+    margin-left: 180px; 
+    font-size: 17px;
+}
+.greed{
+    color: #00754a;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.greed:hover{
+    text-decoration: none;
+}
+.green:hover{
+    text-decoration: none;
+}
+.greece:hover{
+    text-decoration: none;
+}
+ .fifteen{
+    max-width: 1500px;
+    height: 700px;
+    background-color: #f3f1e7;
+    margin-top: -190px;
+}
+.fifty{
+    max-width: 1500px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.fifty p{
+    max-width: 600px;
+    margin-left: 350px;
+    line-height: 22px;  
+    margin-top: 20px;
+}
+.parent{
+    max-width: 1500px;
+    margin-top: 90px;
+    display: flex;
+    font-family: sans-serif;
+}
+.parent h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ .table{
+    margin-left: 50px;
+    margin-right: 80px;
+} 
+.table i{
+    font-size: 12px;
+}
+.display{
+    display: flex;
+}  
+ .alt img{
+    height: 150px;
+    margin-right: 20px;
+}  
+ .alt p{
+    margin-top: 40px;
+    margin-left: -205px;
+    line-height: 22px;
+    font-size: 15px;
+    max-width: 210px;
+}
+.flex{
+    display: flex;
+}
+.app{
+    margin-left: 70px;
+}
+.app img{ 
+     height: 150px;
+}
+ .app h2{
+    margin-left: 20px;
+    margin-bottom: 15px; 
+}
+  .app p{
+    max-width: 225px;
+    margin-top: 40px;
+    margin-left: -205px;
+    margin-bottom: 50px;
+    line-height: 22px;
+    font-size: 15px;
+}  
+ .style i{
+    font-size: 12px;
+ }
+.secondparent{
+    max-width: 1500px;
+    display: flex;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.secondparent h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.style{
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.cut{
+    display: flex;
+}
+.sara h2{
+    margin-left: -10px;
+}
+.sara img{
+    height: 150px;
+      margin-right: 30px;  
+      margin-left: -30px;
+} 
+ .sara p{
+    max-width: 220px;
+    margin-top: 40px;
+    margin-left: -65px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.put{
+    display: flex;
+} 
+.card{
+    margin-left: 100px;
+}
+.card img{ 
+     height: 150px;
+       margin-right: 30px;
+       margin-left: -20px;  
+}
+ .card h2{
+    margin-bottom: 15px;
+    margin-left: -10px;
+}
+.card p{
+    max-width: 250px;
+     margin-top: 40px; 
+     margin-left: -190px;
+     line-height: 22px;
+    font-size: 15px;
+}   
+.ninety{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 220px;
+}
+.code{
+    max-width: 1200px;
+    margin-top: 250px;
+    margin-left: 230px;
+    font-family: sans-serif;
+}
+.code h1{
+    font-size: 26px;
+}
+.code p{
+    max-width: 600px;
+    margin-top: -17px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.code input{
+    border: 1px solid #000;
+    width: 55%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+ .btn5{
+    text-align: right;
+    margin-right: 42%;
+    margin-top: 10px;
+    border: 1px solid #000;
+    width: 90px;
+    border-radius: 25px;
+    height: 25px;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 9px;
+    cursor: pointer;
+ }
+ .btn5:hover{
+    background-color: #d4e9e2;
+ }
+ .question{
+    max-width: 1500px;
+    margin-top: 170px;
+    margin-left: 230px;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+ }
+ .question h1{
+    font-size: 26px;
+ }
+ .question p{
+    max-width: 550px;
+    line-height: 22px;
+    font-size: 15px;
+ }
+ .here{
+    color: green;
+ } 
+ .oreo{
+    height: 300px;
+     max-width: 1500px; 
+     height: 600px; 
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-family: sans-serif;
+ }
+ .hope p{
+    max-width: 1300px; 
+ }
+ .hope{
+    margin-top: 20px;  
+ }
+ .disco{
+    margin-top: 90px;
+    margin-left: 30px;
+    font-weight: 500;
+ }
+ .rope{
+    width: 300px;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+ }
+ .oreo p{
+    line-height: 22px;
+    max-width: 1300px;
+ }
+ .oreo h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: gray;
+ }
+ .clever{
+    max-width: 1300px;
+    display: flex;
+    margin-left: 40px;
+ }
+ .com{
+    color: green;
+ }
+ .shoot{
+    max-width: 1050px;
+     margin-top: 1450px; 
+    margin-bottom: 50px;
+    margin-left: 30px;
+    display: flex;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: space-between;
+ }
+ .shoot h2{
+    font-size: 18px;
+font-family: sans-serif;
+ }
+ .shoot p{
+    font-size: 16px;
+ }
+ .about h2{
+margin-bottom: 30px;
+ }
+ .about p{
+    margin-bottom: 20px;
+    color: gray;
+ }
+ .about p:hover{
+    color: #000;
+ }
+ 
+.career h2{
+    margin-bottom: 30px;
+}
+.career p{
+    margin-bottom: 30px;
+    color: gray;
+}
+.career p:hover{
+    color: #000;
+}
+.social h2{
+    margin-bottom: 30px;
+}
+.social p{
+    margin-bottom: 30px;
+    color: gray;
+}
+.social p:hover{
+    color: #000;
+}
+.bussiness h2{
+    margin-bottom: 30px;
+}
+.bussiness p{
+    margin-bottom: 30px;
+    color: grey;
+}
+.bussiness p:hover{
+    color: #000;
+}
+.order h2{
+    margin-bottom: 30px;
+}
+.order p{
+    margin-bottom: 30px;
+    color: grey;
+}
+.order p:hover{
+    color: #000;
+}
+.images{
+    max-width: 1500px;
+    margin-left: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.images img{
+    margin-left: 25px;
+    background-color: #fff;
+    height: 30px;
+}
+.privacy{
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.privacy h4{
+    font-family: sans-serif;
+    border-right: 1px solid #000;
+    padding: 10px 30px 10px 10px;
+    height: 5px;
+}
+.privacy h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.starbuck{
+    max-width: 1500px;
+    color: gray;
+    margin-left: 35px;
+    margin-bottom: 120px;
+}
+.bar{
+    display: none;
+}
+.button{
+    border-radius: 25px;
+    background-color: #00754a;
+    color: #fff;
+    border: none;
+    width: 110px;
+    height: 30px;
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/* --------------------MOBILE RESPONSIVE----------------------- */
+@media only screen and (max-width: 579px){
+    .hero-left{
+        margin-top: -320px;
+        margin-left: 80px;
+    }
+    .hero-left h1{
+        font-size: 23px;
+        line-height: 29px;
+        margin-bottom: 15px;
+        margin-top: 200px;
+        margin-left: 30px;
+        min-width: 200px;
+    }
+    .hero-left p{
+        font-size: 13px;
+        max-width: 290px;
+        margin-bottom: 10px;
+        margin-left: 13px;
+    }
+    .button{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .image img{
+        height: 50px;
+        width: 85px;
+        margin-left: -10px;
+    }
+    .bar{
+        display: block;
+        margin-left: 320px;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .navbar{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .second{
+        max-width: 387px;
+        overflow: hidden;
+    }
+    .second h3{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+    .btn3{
+        display: block;
+        margin-top: -24px;  
+    }
+    .join{
+        display: none;
+    }
+    .button{
+        display: block;
+    }
+ .hero{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 387px;
+    margin-top: 70px;
+    height: 500px;
+ }
+.seventh{
+    max-width: 300px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.seventh h1{
+    margin-left: -55px;
+    font-size: 20px;
+}
+.seventh p{
+    font-size: 11px;
+    margin-left: -68px;
+     max-width: 300px;
+     margin-top: 10px;
+}
+.one{
+    display: inline-block;
+    margin-top: 40px;
+    width: 270px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    overflow: hidden;
+} 
+ .nineth{
+    margin-top: -40px;
+    margin-bottom: 30px; 
+}
+.nineth img{
+    height: 40px;
+    margin-left: -60px;
+    margin-bottom: -50px;
+    margin-top: 45px;
+}
+.nineth h2{
+    font-size: 18px;
+    margin-left: -10px;
+     width: 230px;
+}
+ .nineth p{
+    font-size: 14px;
+    margin-left: -10px;
+    width: 220px;
+    text-align: justify;
+    line-height: 15px;
+ }
+.tenth{
+    margin-bottom: 30px;
+    margin-left: -5px;
+}
+.tenth img{
+    height: 40px;
+    margin-left: 5px;
+} 
+ .tenth h2{
+    width: 230px;
+    margin-top: -65px;
+    font-size: 16px;
+    margin-left: 55px;
+}
+.tenth p{
+    width: 260px;
+    font-size: 14px;
+    margin-left: 55px;
+    text-align: justify;
+    line-height: 15px;
+}
+ .eleventh{
+    margin-bottom: 30px;
+    margin-left: -5px;
+ }
+ .eleventh img{
+    height: 40px;
+    margin-left: 5px;
+ }
+ .eleventh h2{
+    font-size: 16px;
+    margin-top: -60px;
+    margin-left: 55px;
+    width: 200px;
+ }
+ .eleventh p{
+    width: 260px;
+    font-size: 14px;
+  margin-left: 55px;
+    text-align: justify;
+    line-height: 15px;
+ } 
+ .twelveth{
+    height: 90px;
+    max-width: 387px;
+    padding: 10px;
+    margin-left: auto;
+    margin-left: -20px;
+    overflow: hidden;
+ }
+ .twelveth h1{
+    max-width: 287px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 50px;
+ }
+ .twelveth h2{
+    font-size: 15px;
+    margin-right: -15px;
+    margin-top: -22px;
+ }
+  .twenty img{
+    height: 10px;
+    width: 12px;
+    margin-left: 26px;
+    margin-top: -10px;
+    margin-bottom: 11px;
+ }
+ .thirteen{
+    height: 350px;
+    max-width: 387px;
+    margin-left: -2px;
+    overflow: hidden;
+ }
+ .three img{
+    height: 190px;
+    margin-top: 10px;
+    margin-left: -10px;
+ }
+  .three{
+    max-width: 15px;
+  }
+ .thirty{
+    margin-top: 70px;
+     margin-left: -20px; 
+ }
+ .thirty h1{
+    font-size: 18px;
+     margin-top: 160px; 
+     margin-left: 60px; 
+ }
+ .thirty p{
+    font-size: 14px;
+    margin-left: 20px;
+    text-align: center;
+ }
+ .fourteen{
+      max-width: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+    overflow: hidden;
+ }
+ .fourteen h1{
+    font-size: 20px;
+ }
+ .fourteen p{
+    width: 310px;
+    font-size: 13px;
+    margin-left: -25px;
+    line-height: 15px;
+ } 
+  .four{
+    display: inline-block;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: -30px;
+    overflow: hidden;
+ }
+ .forty{
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 5px;
+ }
+ .forty img{
+    margin-left: -15px;
+    height: 100px;
+ }
+ .forty h2{
+    font-size: 19px;
+    margin-top: -120px;
+    margin-left: 110px;
+ }
+ .forty p{
+    width: 180px;
+    font-size: 14px;
+    margin-left: 110px;
+    text-align: justify;
+ }
+ .for{
+    margin-bottom: 40px;
+    margin-left: -15px;
+ }
+ .for img{
+    height: 100px;
+    margin-left: 10px;
+ } 
+  .for h2{
+    font-size: 19px;
+    margin-left: 120px;
+    margin-top: -120px;
+ }
+ .for p{
+    width: 200px;
+    font-size: 14px;
+    margin-left: 120px;
+    text-align: justify;
+ }
+ .from{
+    margin-left: -40px;
+ }
+ .from img{
+    height: 100px;
+    margin-left: 30px;
+ }
+ .from h2{
+    width: 100%;
+    font-size: 19px;
+    margin-left: 140px;
+    margin-top: -120px;
+ }
+ .from p{
+    font-size: 14px;
+    margin-left: 135px;
+    width: 200px;
+ } 
+ .green{
+     margin-left: 130px;  
+     font-size: 14px; 
+     display: none;
+ }
+ .greece{
+    margin-left: 120px;
+    font-size: 14px;
+ }
+ .greed{
+    margin-left: 120px;
+    font-size: 14px;
+ }
+ .fifty{
+    max-width: 280px;
+ }
+ .fifteen{
+    max-width: 387px;
+    width: 100%;
+ }
+ .fifty h2{
+    width: 290px;
+    font-size: 20px;
+    margin-left: 30px;
+ }
+ .fifty p{
+    width: 270px;
+    font-size: 13px;
+    margin-left: 30px;
+    line-height: 15px;
+ }
+ .parent{
+    display: inline-block;
+    margin-top: 40px;
+ }
+ .table{
+    max-width: 350px;
+    margin-left: 20px;
+ }
+ .table img{
+    height: 20px;
+ }
+ .table h2{
+    font-size: 15px;
+ }
+ .table p{
+    font-size: 12px;
+    margin-bottom: 40px;
+ }
+ .alt img{
+    height: 140px;
+    margin-left: 5px;
+ }
+ .alt h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+ }
+ .alt p{
+    font-size: 12px;
+    margin-left: -160px;
+    line-height: 15px;
+    margin-top: 30px;
+ }
+ .app{
+    margin-left: -10px;
+    overflow: hidden;
+ }
+ .app h2{
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+ }
+ .app p{
+    width: 190px;
+    font-size: 12px;
+    margin-left: -295px;
+    line-height: 15px;
+    margin-top: 30px;
+ }
+ .app img{
+    height: 140px;
+    margin-left: 10px;
+ }
+ .secondparent{
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #f3f1e7;
+    width: 100%;
+ }
+ .style{
+    margin-bottom: 40px;
+    margin-left: 20px;
+ }
+ .style img{
+    height: 20px;
+ }
+ .style h2{
+    font-size: 17px;
+ }
+ .style p{
+    font-size: 12px;
+ }
+ .sara{
+    margin-left: 20px;
+ }
+ .sara h2{
+    font-size: 15px;
+    margin-left: -10px;
+ }
+ .sara p{
+    width: 180px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: -60px;
+    margin-top: 30px;
+ }
+ .sara img{
+    height: 140px;
+    margin-left: -10px;
+ }
+ .card{
+    margin-left: 20px;
+ }
+ .card h2{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -10px;
+ }
+ .card p{
+    width: 200px;
+    font-size: 12px;
+    margin-left: -155px;
+    line-height: 15px;
+    margin-top: 40px;
+ }
+ .card img{
+    margin-top: 10px;
+    height: 140px;
+    margin-left: -10px;
+ }
+ .code{
+    margin-left: 15px;
+    max-width: 270px;
+    margin-top: 50px;
+ }
+ .code h1{
+    font-size: 22px;
+ }
+ .code p{
+    width: 270px;
+    font-size: 16px;
+ }
+ .code input{
+    height: 20px;
+    min-width: 270px;
+     padding: 12px;
+ }
+ .question{
+    width: 290px;
+    margin-left: 10px;
+ }
+ .question h1{
+    font-size: 17px;
+ }
+ .question p{
+    width: 280px;
+    font-size: 12px;
+    line-height: 15px;
+ }
+ .oreo{
+    height: 1000px;
+    max-width: 387px;
+    overflow: hidden;
+ }
+ .clever{
+    display: inline-block;
+ }
+ .rope{
+    width: 250px;
+    margin-top: 50px;
+    font-size: 12px;
+    margin-left: 20px;
+ }
+ .rope p{
+    margin-left: -5px;
+ }
+ .hope{
+    margin-left: -5px;
+    margin-bottom: -40px;
+    width: 280px;
+ }
+ .oreo h2{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-left: -20px;
+ }
+ .hope p{
+    max-width: 260px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: -20px;
+ }
+ .disco{
+    margin-left: -5px;
+    margin-bottom: -40px;
+    width: 280px;
+    margin-top: 60px;
+ }
+ .disco p{
+    max-width: 270px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: -20px;
+ }
+.meet{
+    display: inline-block;
+}
+.shoot{
+     margin-top: 1400px; 
+     display: inline-block; 
+    font-size: 12px;
+    margin-left: 20px ;
+}
+.shoot h2{
+    font-size: 15px;
+}
+.about p{
+    display: none;
+    margin-top: 100px;
+}
+.career p{
+    display: none;
+}
+.social p{
+    display: none;
+}
+.bussiness p{
+    display: none;
+}
+.order p{
+    display: none;
+    margin-bottom: -200px;
+}
+.privacy h4{
+    border-right: none;
+}
+.images{
+    margin-left: 30px;
+}
+.privacy{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.images{
+    margin-top: -50px;
+    max-width: 400px;
+    margin-left: -10px;
+}
+.images img{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: -10px;
+}
+.wifi{
+    height: 30px;  
+  }
+  .facebook{
+      height: 30px;
+  }
+  .p{
+      height: 30px;
+  }
+  .insta{
+      height: 30px;
+  }
+  .youtube{
+      height: 30px;
+  }
+  .twitter{
+      height: 30px;
+}
+.starbuck{
+    width: 260px;
+    font-size: 12px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+}
+/* -------------------- TABLET RESPONSIVE------------ */
+@media only screen and (min-width: 580px) and (max-width: 1024px){
+    .image img{
+        width: 170px;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    .first h4{
+        font-size: 27px;
+    }
+     .navbar{
+        max-width: 500px;
+        margin-top: -60px;
+     }
+     .ward{
+        margin-bottom: -43px;
+     }
+     .location{
+        margin-left: -370px;
+        max-width: 800px;
+     }
+     .location i{
+        margin-left: 90px;
+        font-size: 20px;
+        margin-top: -5px;
+     }
+     .second{
+        max-width: 1500px;
+        font-size: 20px;  
+     }
+     .hero{
+        min-width: 1490px;
+     }
+    .btn1{
+        width: 120px;
+        height: 50px;
+        font-size: 22px;
+        margin-left: 190px;
+        margin-top: -20px;
+    }
+    .btn2{
+        width: 140px;
+        height: 50px;
+        font-size: 22px;
+         margin-right: 130px;
+         margin-top: -20px;
+    }
+     .p{
+        font-size: 29px;
+        width: 30%;
+        margin-left: -20px;
+        margin-right: -250px;
+        margin-top: -15px;
+     }
+     .location img{
+        margin-left: 80px;
+     }
+    .third{
+        margin-top: 130px;
+        min-width: 920px;
+    }
+     .hero p{
+        font-size: 35px;
+     }
+     .hero h1{
+        line-height: 39px;
+     }
+    .seventh{
+        min-width: 1024px;
+        margin-left: 200px;
+        margin-top: 180px;
+        margin-bottom: 150px;
+    }
+    .seventh h1{
+        font-size: 39px;
+    }
+    .seventh p{
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .one{
+        min-width: 1400px;
+        margin-left: -10px;
+    }
+    .one h2{
+        font-size: 34px;
+    }
+    .one img{
+        height: 70px;
+    }
+    .nineth{
+    margin-left: 70px;
+    }
+    .nineth p{
+        max-width: 350px;
+        font-size: 32px;
+        margin-left: 30px;
+        line-height: 35px;
+    }
+    .tenth p{
+        max-width: 350px;
+        font-size: 32px;
+        margin-left: 40px;
+        line-height: 35px;
+    }
+    .tenth h2{
+        max-width: 320px;
+        font-size: 34px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .tenth img{
+        margin-left: 160px;
+    }
+    .eleventh p{
+        max-width: 350px;
+        font-size: 32px;
+        margin-left: 30px;
+        line-height: 35px;
+    }
+    .eleventh h2{
+        font-size: 34px;
+        max-width: 320px;
+        text-align: center;
+    }
+    .twelveth{
+        min-width: 1490px;
+        height: 270px;
+    }
+    .twelveth h1{
+        font-size: 40px;
+    }
+.twenty{
+    margin-bottom: -5px;
+}
+.twenty h2{
+    margin-top: 70px;
+}
+.thirteen{
+    min-width: 1490px;
+    height: 450px;
+}
+.three img{
+    margin-left: -20px;
+    margin-top: -10px;
+    height: 350px;
+   max-width: 650px;
+}
+.thirty h1{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.thirty p{
+    max-width: 600px;
+    font-size: 28px;
+    line-height: 34px;
+    margin-left: 40px;
+}
+.four{
+    min-width: 1300px;
+}
+.four img{
+    height: 190px;
+}
+.four h2{
+    font-size: 35px;
+}
+.fourteen p{
+    margin-left: 240px;
+    min-width: 990px;
+    font-size: 33px;
+    line-height: 34px;
+}
+.fourteen h1{
+    margin-left: 530px;
+    font-size: 45px;
+    min-width: 400px;
+}
+.for img{
+    margin-left: 30px;
+}
+.forty p{
+    font-size: 28px;
+    margin-left: 50px;
+    max-width: 400px;
+    line-height: 34px;
+}
+.for{
+    margin-left: 150px;
+}
+.for p{
+    min-width: 350px;
+    font-size: 28px;
+    text-align: center;
+    margin-left: -30px;
+    line-height: 34px;
+}
+.from{
+    margin-left: 130px;
+}
+.from p{
+    min-width: 300px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 34px;
+     margin-left: -5px;
+}
+.greece{
+    font-size: 32px;
+    margin-left: 160px;
+}
+.green{
+    font-size: 32px;
+}
+.greed{
+    font-size: 32px;
+}
+.fifteen{
+    min-width: 1490px;
+    height: 1400px;
+    margin-top: -130px;
+    background-color: #f3f1e7;
+}
+.fifty{
+    width: 100%;
+}
+.fifty h2{
+    font-size: 47px;
+    margin-left: 120px;
+}
+.parent{
+    width: 100%;
+}
+.fifty p{
+    margin-left: 300px;
+    max-width: 890px;
+    font-size: 30px;
+    line-height: 37px;
+    line-height: 40px;
+}
+ .table{
+    min-width: 500px;
+ }
+ .table i{
+   font-size: 20px;
+ }
+.table h2{
+    font-size: 35px;
+}
+.table p{
+    font-size: 27px;
+}
+.alt{
+margin-top: 150px;
+margin-left: -600px;
+}
+.alt img{
+    height: 280px;
+}
+.alt h2{
+    font-size: 31px;
+    min-width: 400px;
+}
+.alt p{
+    font-size: 28px;
+    max-width: 370px;
+  margin-left: -400px;
+  line-height: 34px;
+  margin-top: 70px;
+}
+.app{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.app img{
+    height: 280px;
+}
+.app h2{
+    font-size: 31px;
+    min-width: 400px;
+}
+.app p{
+    font-size: 28px;
+    max-width: 400px;
+margin-left: -395px;
+line-height: 34px;
+margin-top: 70px;
+}
+.style{
+    min-width: 400px;
+}
+.style h2{
+    font-size: 32px;
+}
+.style p{
+    font-size: 27px;
+}
+.style i{
+    font-size: 20px;
+}
+.sara{
+    margin-top: 150px;
+    margin-left: -450px;
+}
+.sara img{
+    height: 280px;
+}
+.sara h2{
+    font-size: 31px;
+}
+.sara p{
+    font-size: 28px;
+    max-width: 440px;
+   margin-left: -110px;
+   line-height: 34px;
+   margin-top: 70px;
+}
+.card{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.card img{
+    height: 280px;
+}
+.card h2{
+    font-size: 31px;
+    margin-left: 10px;
+}
+.card p{
+    margin-top: 70px;
+    font-size: 28px;
+    max-width: 380px;
+   margin-left: -325px;
+   line-height: 34px;
+}
+.code h1{
+    font-size: 50px;
+}
+.code{
+    margin-left: 320px;
+}
+.code p{
+    font-size: 32px;
+    max-width: 700px;
+}
+.code input{
+    height: 50px;
+    font-size: 30px;
+}
+.btn5{
+    width: 150px;
+    font-size: 27px;
+    height: 40px;
+}
+.question{
+    margin-top: 240px;
+    margin-left: 320px;
+    margin-bottom: 150px;
+}
+.question h1{
+    font-size: 35px;
+}
+.question p{
+    max-width: 700px;
+    
+    font-size: 30px;
+    line-height: 34px;
+}
+.oreo{
+    min-width: 1490px;
+    height: 850px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.clever{
+    width: 100%;
+}
+.rope{
+    width: 100%;
+}
+.rope p{
+    font-size: 34px;
+    width: 700px;
+}
+.hope{
+    margin-left: 20px;
+    max-width: 650px;     
+}
+.hope p{
+    font-size: 34px;
+    line-height: 29px;
+}
+.oreo p{
+    font-size: 26px;
+}
+.hope h2{
+    font-size: 30px;
+}
+.disco h2{
+    font-size: 30px;
+}
+.disco p{
+    font-size: 26px;
+    line-height: 29px;
+}
+.disco{
+    max-width: 540px;
+    margin-left: 40px;
+}
+.shoot{
+    margin-top: 1980px;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 5px;
+}
+.shoot h2{
+    margin-left: 30px;
+    font-size: 31px;
+}
+.about p{
+    display: none;
+    margin-top: 100px;
+}
+.career p{
+    display: none;
+}
+.social p{
+    display: none;
+}
+.bussiness p{
+    display: none;
+}
+.order p{
+    display: none;
+    margin-bottom: -200px;
+}
+.privacy h4{
+    border-right: none;
+    margin-bottom: 40px;
+}
+.privacy{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 29px;
+    margin-left: 25px;
+}
+.images img{
+    height: 55px;
+    width: 55px;
+    margin-left: 40px;
+    margin-right: 7px;
+}
+ 
+.starbuck{
+    font-size: 29px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
